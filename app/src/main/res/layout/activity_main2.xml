@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
     tools:context=".Main2Activity">
     <TextView
         android:id="@+id/textView"
@@ -15,6 +16,7 @@
         android:layout_marginBottom="436dp"
         android:text="TextView"
         android:textSize="30dp"
+        android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
